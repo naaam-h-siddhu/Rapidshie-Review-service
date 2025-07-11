@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: rapidshine-review-db
+#      username: myuser         # Optional
+#      password: mypassword     # Optional
+#      authentication-database: admin  # Optional, often needed for secured MongoDB
+jwt:
+  secret: a-string-secret-at-least-256-bits-long-siddhuertgwerasgagas
